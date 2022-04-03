@@ -10,3 +10,4 @@ def main(fruits):
     return fruits.count("apple")
 fruits=["banana", "apple", "avacado", "lymon","apple"]
 print(main(fruits))
+
