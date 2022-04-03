@@ -9,4 +9,10 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    a=numbers1.pop()
+    numbers2.insert(0,a)
+    
+    return numbers1+numbers2
+numbers1=[1,2,3,4,5]
+numbers2=[6,7,8,9]
+print(main(numbers1,numbers2))
