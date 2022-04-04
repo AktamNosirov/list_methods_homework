@@ -6,17 +6,27 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    if fruits[0]="apple" :
+    n= 0
+    if fruits[n]=="apple":
         fruits.remove("apple")
-    if fruits[1]=="apple" :
+    else:
+        n += 1
+    if fruits[n]=="apple":
         fruits.remove("apple")
-    if fruits[2]=="apple" :
+    else:
+        n += 1
+    if fruits[n]=="apple":
         fruits.remove("apple")
-    if fruits[3]=="apple" :
+    else:
+        n += 1
+    if fruits[n]=="apple":
         fruits.remove("apple")
-    if fruits[4]=="apple" :
+    else:
+        n += 1
+    if fruits[n]=="apple":
         fruits.remove("apple")
+    else:
+        n += 1
     return fruits 
 fruits=["banana", "apple", "avacado", "apple","apple"]
 print(main(fruits)) 
-
