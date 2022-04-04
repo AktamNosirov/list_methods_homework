@@ -19,3 +19,4 @@ def main(fruits):
     return fruits 
 fruits=["banana", "apple", "avacado", "apple","apple"]
 print(main(fruits)) 
+
