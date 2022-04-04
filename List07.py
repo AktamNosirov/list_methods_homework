@@ -10,4 +10,3 @@ def main(list01):
 list01=[0,1,1,1,1,0,0,0,0,0,1]
 print(main(list01))
 
-
